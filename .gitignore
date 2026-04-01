@@ -1,0 +1,26 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data, models, outputs (large files — don't commit)
+data/
+models/
+outputs/
+figures/
+
+# Environment
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+*.lock

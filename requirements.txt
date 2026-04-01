@@ -1,0 +1,18 @@
+# Core
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.19.0
+accelerate>=0.30.0
+peft>=0.11.0
+trl>=0.8.0
+bitsandbytes>=0.43.0
+
+# Inference (Teacher)
+vllm>=0.4.0
+
+# Analysis & Plotting
+matplotlib>=3.8.0
+numpy>=1.26.0
+
+# Optional: faster fine-tuning (uncomment if using Unsloth)
+# unsloth[cu121-torch230]>=2024.4
